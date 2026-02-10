@@ -7,6 +7,8 @@ A modern, dark-themed portfolio website showcasing web development work with an 
 
 ## 🚀 Live Demo
 
+Deploy to Vercel: https://vercel.com/new?repository-url=https://github.com/johnrochie/evolution-media-group-jarvis
+
 ## ✨ Features
 
 - **Modern Dark Theme** - Sophisticated dark background (#0f0f0f) with cyan/teal accents (#00bcd4)
