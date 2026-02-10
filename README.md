@@ -37,6 +37,14 @@ Deploy to Vercel: https://vercel.com/new?repository-url=https://github.com/johnr
 - **Typography:** Google Fonts (Playfair Display, Inter)
 - **Deployment:** Vercel
 
+## 🔧 CSS Fixes (v1)
+
+**Recent Fixes (v85e5ce0b):**
+- ✅ Fixed Tailwind CSS v4 configuration
+- ✅ Added consistent section padding with media queries
+- ✅ Ensured proper text centering across all breakpoints
+- ✅ Updated PostCSS configuration for proper Tailwind processing
+
 ## 📦 Installation
 
 ```bash
