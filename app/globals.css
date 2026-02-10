@@ -1,17 +1,19 @@
 @import "tailwindcss";
 
 :root {
-  --background: #0f0f0f;
-  --foreground: #ffffff;
-  --accent: #00bcd4;
+  --color-background: #0f0f0f;
+  --color-foreground: #ffffff;
+  --color-accent: #00bcd4;
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-playfair);
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --color-accent: var(--accent);
+  --color-background: #0f0f0f;
+  --color-foreground: #ffffff;
   --font-sans: var(--font-inter);
   --font-serif: var(--font-playfair);
+  --spacing-section: 8rem;
 }
 
 * {
@@ -29,6 +31,23 @@ body {
   color: #ffffff;
   font-family: var(--font-inter), --apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", sans-serif;
   line-height: 1.6;
+}
+
+/* Ensure all sections are properly centered and have consistent padding */
+section {
+  padding: 4rem 1rem;
+}
+
+@media (min-width: 768px) {
+  section {
+    padding: 6rem 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  section {
+    padding: 8rem 2rem;
+  }
 }
 
 .gradient-text {
